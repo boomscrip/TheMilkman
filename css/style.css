@@ -31,8 +31,17 @@ header{
 }
 
 .navbar-nav > li > a:hover{
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
+
+
+
+.slider{
+
+
+	padding-bottom: 50px;
+}
+
 /*header{
 	display: block;
 }
