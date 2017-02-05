@@ -1,5 +1,6 @@
 body{
 /*background-color: #d8d0d0;*/
+
 }
 
 
@@ -34,29 +35,54 @@ header{
 	border-bottom: 1px solid #ccc;
 }
 
+.menu .container{
+position: relative;
+
+}
+.globe{
+	font-size: 30px;
+	line-height: 50px;
+	position: absolute;
+	right: 30px;
+	cursor: pointer;
+	color: #8d8c8c;
+	display: none;
 
 
+}
 .slider{
+height: 100px;
 
-
-	padding-bottom: 50px;
+	padding: 0 50px;
 }
 
-/*header{
-	display: block;
+@media only screen and (max-width : 992px) {
+		.navbar-brand{
+		padding: 20px;
+		}
+		.icons {
+			display: none;
+			position: absolute;
+			right: 30px;
+			top: 50px;
+		 }
+
+		 .globe{
+			 display: block;
+		 }
+}
+@media only screen and (max-width : 767px){
+	.menu{
+		padding: o;
+	}
+	.globe{
+		display: none;
+	}
 }
 
-.page-header{
-	height: 20px;
-	border-style: 1px solid black;
 
+@media only screen and (min-width : 993px) {
+	 .icons{
+		 display: block !important;
+	 }
 }
-.page-header h1{
-	float: right;
-
-}
-.page-header img{
-	height: 20vh;
-	width: 30vw;
-
-}*/
